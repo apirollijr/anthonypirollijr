@@ -17,3 +17,14 @@ code {
   background-color: #f8f9fa !important;
 }
 
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
