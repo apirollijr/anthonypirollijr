@@ -16,6 +16,8 @@ app.use('/api/projects', require('./routes/projectRoutes'));
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/messages', require('./routes/messageRoutes'));
 app.use('/api/newsletter', require('./routes/newsletterRoutes'));
+app.use('/api/auth', require('./routes/authRoutes'));
+
 
 // DB Connection + Server Start
 const PORT = process.env.PORT || 5000;
